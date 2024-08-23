@@ -1,4 +1,3 @@
-# jittor-clip-fewshot
 # jittor挑战赛-赛道一B榜
 
 ## 一、当前基于 CLIP 的小样本学习概况
@@ -49,4 +48,8 @@
 
 ```bash
 python test.py
-
+```
+### 2. 训练
+```bash
+bash train.sh
+``
