@@ -30,7 +30,7 @@
 
 ### 下载模型权重
 
-请下载模型权重（链接：密码：），并按照以下要求放置：
+请下载模型权重（链接：https://pan.baidu.com/s/1vyJHgwidVQWuG-U869awfQ 密码：3a36），并按照以下要求放置：
 
 - `res1000epoch.pkl` 放置在主目录。
 - 其他 `.pkl` 权重文件放置在 `test_pkl` 文件夹中。
@@ -47,9 +47,11 @@
 运行以下命令进行测试：
 
 ```bash
+pip install -r requirements.txt
 python test.py
 ```
 ### 2. 训练
 ```bash
 bash train.sh
+```
 qq 917846323
