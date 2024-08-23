@@ -52,3 +52,4 @@ python test.py
 ### 2. 训练
 ```bash
 bash train.sh
+qq 917846323
