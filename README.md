@@ -81,4 +81,11 @@ qq 917846323
   pages={12924--12933},
   year={2024}
 }
+
+@inproceedings{lp24,
+    title={LP++: A Surprisingly Strong Linear Probe for Few-Shot CLIP},
+    author={Yunshi Huang and Fereshteh Shakeri and Jose Dolz and Malik Boudiaf and Houda Bahig and Ismail Ben Ayed},
+    booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    year={2024}
+    }
 ```
