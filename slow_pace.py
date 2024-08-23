@@ -1706,10 +1706,10 @@ def run_lora(args, trainset_feature_loader, clip_model_zs, clip_model, logit_sca
             print("**** Val accuracy:  {:.2f} {:.2f} {:.2f} {:.2f} {:.2f} {:.2f} {:.2f} {:.2f}  ****\n".format(acc_val,acc_val1,acc_val2,acc_val3,acc_val4,acc_val5,acc_val6,acc_val7))
             if acc_val > best_acc:
                 best_acc = acc_val
-                channel_lp.save(f'test_pkl/clip_model{epoch}_{acc_val6:2f}.pkl')
-                moco_adapter.save(f'test_pkl/clip_model{epoch}_{acc_val6:2f}.pkl')
-                clip_model.save(f'test_pkl/clip_model{epoch}_{acc_val6:2f}.pkl')
-                prompt_learner.save(f'test_pkl/PromptLearner_{epoch}_{acc_val6:2f}.pkl')
+                channel_lp.save(f'test_pkl/channel.pkl')
+                moco_adapter.save(f'test_pkl/moco_adapter.pkl')
+                clip_model.save(f'test_pkl/clip_model.pkl')
+                prompt_learner.save(f'test_pkl/PromptLearner.pkl')
                 save_lora(args, epoch, list_lora_layers)
     
         epoch += 1
