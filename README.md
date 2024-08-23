@@ -56,3 +56,25 @@ python test.py
 bash train.sh
 ```
 qq 917846323
+## 引用
+@inproceedings{zanella2024low,
+  title={Low-Rank Few-Shot Adaptation of Vision-Language Models},
+  author={Zanella, Maxime and Ben Ayed, Ismail},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={1593--1603},
+  year={2024}
+}
+@inproceedings{zanella2024test,
+  title={On the test-time zero-shot generalization of vision-language models: Do we really need prompt learning?},
+  author={Zanella, Maxime and Ben Ayed, Ismail},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={23783--23793},
+  year={2024}
+}
+@inproceedings{zhang2024dept,
+  title={Dept: Decoupled prompt tuning},
+  author={Zhang, Ji and Wu, Shihan and Gao, Lianli and Shen, Heng Tao and Song, Jingkuan},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={12924--12933},
+  year={2024}
+}
