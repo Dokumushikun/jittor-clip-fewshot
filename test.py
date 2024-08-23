@@ -1672,7 +1672,7 @@ def update_txt_file(base_txt, update_txt):
     base_dict.update(update_dict)
 
     save_dict_to_txt(base_dict, base_txt)
-def evaluate_base(args,  moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader, test_loader, clip_model_zs):
+def evaluate_base(args,  moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, test_loader, clip_model_zs):
 
     with jt.no_grad():
         text_features = clip_classifier(template, clip_model).squeeze(0)
@@ -1735,7 +1735,7 @@ def evaluate_base(args,  moco_adapter, moco_model, channel_lp, prompt_learner, T
             cosine_similarity5 = (cosine_similarity2 + cosine_similarity3)/2 + 0.5 *logits
             cosine_similarity6 = (cosine_similarity2 + cosine_similarity3)/2 + 0.5 *out_moco
 
-            top5_prob, top5_pred6 = cosine_similarity2.topk(5, dim=-1)
+            top5_prob, top5_pred6 = cosine_similarity1.topk(5, dim=-1)
             for idx in range(1):
                 top5_labels6 = top5_pred6[idx].tolist()  
                 top5_str6 = ' '.join(map(str, top5_labels6)) 
@@ -1746,7 +1746,7 @@ def evaluate_base(args,  moco_adapter, moco_model, channel_lp, prompt_learner, T
             for result in results6:
                 f.write(result + '\n')   
 
-def evaluate_new(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader, test_loader, clip_model_zs):
+def evaluate_new(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, test_loader, clip_model_zs):
 
     with jt.no_grad():
         text_features = clip_classifier(template, clip_model).squeeze(0)
@@ -1784,49 +1784,6 @@ def evaluate_new(args, moco_adapter, moco_model, channel_lp, prompt_learner, Tex
                 f.write(result + '\n')  
     return acc
     
-def run_test(args, clip_model_zs, clip_model, logit_scale, dataset, val_loader1, val_loader2, test_loader1, test_loader2):
-
-    list_lora_layers1 = apply_lora(args, clip_model_zs)
-    load_lora(args, list_lora_layers1, 'lora_weights1/lora_weights.pkl')
-    list_lora_layers = apply_lora(args, clip_model)
-    
-    classnames = classnames_('classes.txt')
-    prompt_learner = VLPromptLearner(classnames, clip_model, clip_model_zs)
-    tokenized_prompts = prompt_learner.tokenized_prompts
-
-    Text_encoder = TextEncoder(clip_model)
-    
-    moco_model, args.feat_dim = load_moco("r-50-1000ep.pkl")
-    
-    channel_lp = Channel_LP()
-
-
-    moco_adapter = Moco_Adapter() 
-    
-    moco_adapter.load('test_pkl/moco_adapter.pkl')
-    channel_lp.load('test_pkl/channel.pkl')
-    clip_model.load('test_pkl/clip_model.pkl')
-    prompt_learner.load('test_pkl/PromptLearner.pkl')
-    load_lora(args, list_lora_layers, 'test_pkl/lora_weights.pkl')
-    clip_model_ori, _, _ , _, _ = clip.load("ViT-B-32.pkl")
-    clip_model_zs.eval()
-    moco_adapter.eval()
-    moco_model.eval()
-    channel_lp.eval()
-    clip_model.eval()
-    clip_model_ori.eval()   
-    acc_val = evaluate_lora2(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader1, test_loader2, clip_model_ori)
-    print(acc_val)
-    acc_val,acc_val1,acc_val2,acc_val3,acc_val4,acc_val5,acc_val6 ,acc_val7 = evaluate_lora1(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader2, test_loader1, clip_model_zs)
-    print(acc_val,acc_val1,acc_val2,acc_val3,acc_val4,acc_val5,acc_val6,acc_val7)    
-
-    
-
-
-    base_txt = 'final_results/top5_results6.txt'
-    update_txt = 'final_results/top5_results_ood.txt'
-
-    update_txt_file(base_txt, update_txt)
 import re
 def process_line(line):
     # 使用正则表达式提取文件名
@@ -1838,7 +1795,7 @@ def process_line(line):
         line = line.replace(match.group(0), file_name)
     return line
     
-def run_test1(args, clip_model_zs, clip_model, logit_scale, dataset, val_loader1, val_loader2, test_loader1, test_loader2):
+def run_test1(args, clip_model_zs, clip_model, logit_scale, dataset,  test_loader1, test_loader2):
 
     list_lora_layers1 = apply_lora(args, clip_model_zs)
     load_lora(args, list_lora_layers1, 'lora_weights1/lora_weights.pkl')
@@ -1873,9 +1830,9 @@ def run_test1(args, clip_model_zs, clip_model, logit_scale, dataset, val_loader1
     clip_model.eval()
     clip_model_ori.eval()   
 
-    evaluate_base(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader2, test_loader1, clip_model_zs)
+    evaluate_base(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model,  test_loader1, clip_model_zs)
 
-    evaluate_new(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader1, test_loader2, clip_model_ori)
+    evaluate_new(args, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, test_loader2, clip_model_ori)
 
     base_txt = 'final_results/top5_results6.txt'
     update_txt = 'final_results/top5_results_ood.txt'
@@ -1946,19 +1903,13 @@ def main():
     ])
 
     from jittor.transform import CenterCrop, ImageNormalize, Compose, _setup_size, to_pil_image, Resize
-    '''
-    valset2 = JtDataset(root_path, 'valid', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
-    val_loader2 = DataLoader(valset2, batch_size=1, num_workers=8, shuffle=False)
 
-    valset1 = JtDataset(root_path, 'test_out', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
-    val_loader1 = DataLoader(valset1, batch_size=1, num_workers=8, shuffle=False)
-    '''
     testset1 = JtDataset(root_path, 'TestSetB_1', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
     test_loader1 = DataLoader(testset1, batch_size=1, num_workers=8, shuffle=False)
+    
     testset2 = JtDataset(root_path, 'TestSetB_2', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
     test_loader2 = DataLoader(testset2, batch_size=1, num_workers=8, shuffle=False)
-
-    run_test(args, clip_model_zs, clip_model, logit_scale, dataset, val_loader1, val_loader2, test_loader1, test_loader2)
+    run_test1(args, clip_model_zs, clip_model, logit_scale, dataset,  test_loader1, test_loader2)
 
 
 
