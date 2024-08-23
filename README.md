@@ -42,14 +42,15 @@
 - 训练集 `TrainSet` 放置在 `Dataset/TrainSet/TrainSet` 目录下。
 
 **注意**：训练集路径为 `Dataset/TrainSet/TrainSet`，即 `TrainSet` 文件夹嵌套于 `TrainSet` 目录下。
-
+```bash
+依赖安装 pip install -r requirements.txt
+```
 ### 1. 测试
 
 运行以下命令进行测试：
-
 ```bash
-pip install -r requirements.txt
-python test.py
+python ood.py #将base类输出到Dataset/TestSetB_1.txt, new类输出到Dataset/TestSetB_1.txt.
+python test.py #分别对base和new预测top5标签，保存到final_results/result.txt
 ```
 ### 2. 训练
 ```bash
