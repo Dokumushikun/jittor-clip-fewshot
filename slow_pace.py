@@ -1521,21 +1521,13 @@ def run_lora(args, trainset_feature_loader, clip_model_zs, clip_model, logit_sca
     test_features = test_features.squeeze(1)
     textual_features = textual_features.squeeze(0)
     test_labels = test_labels.squeeze(1)
-    #test_featurescar, test_labelscar = pre_load_features(clip_model, val_loadercar)
-    # Zero-shot CLIP
+
     print(test_features.shape)
     print(test_labels.shape)
     clip_logits = 100 * test_features @ textual_features.t()
     zs_acc = cls_acc(clip_logits, test_labels)
     print("\n**** Zero-shot CLIP's test accuracy: {:.2f}. ****\n".format(zs_acc))
-    
-    #clip_logits = 100 * test_features @ text_features_pt.t()
-    #zs_acc = cls_acc(clip_logits, test_labels)
-    #print("\n**** Zero-shot CLIP's test accuracy: {:.2f}. ****\n".format(zs_acc)) 
 
-    #clip_logits = logit_scale * test_featurescar @ textual_features.t()
-    #zs_acc = cls_acc(clip_logits, test_labelscar)
-    #print("\n**** Zero-shot CLIP's test accuracy: {:.2f}. ****\n".format(zs_acc))
 
     moco_model, args.feat_dim = load_moco("r-50-1000ep.pkl")
 
@@ -1708,7 +1700,7 @@ def run_lora(args, trainset_feature_loader, clip_model_zs, clip_model, logit_sca
             # current_lr = scheduler.get_last_lr()[0]
             print('Acc: {:.4f}, Loss: {:.4f}'.format(acc_train,loss_epoch))
         # Eval
-        if epoch >= 10:
+        if epoch >= 0:
             clip_model.eval()
             acc_val,acc_val1,acc_val2,acc_val3,acc_val4,acc_val5,acc_val6 ,acc_val7 = evaluate_lora(args,epoch, zs_clip_features, moco_adapter, moco_model, channel_lp, prompt_learner, Text_encoder, clip_model, val_loader, test_loader, clip_model_zs)
             print("**** Val accuracy:  {:.2f} {:.2f} {:.2f} {:.2f} {:.2f} {:.2f} {:.2f} {:.2f}  ****\n".format(acc_val,acc_val1,acc_val2,acc_val3,acc_val4,acc_val5,acc_val6,acc_val7))
@@ -1747,12 +1739,12 @@ class JtDataset(Dataset):
         self.classname_to_label = self.read_classnames(self.classes_path)
 
         if split == 'test':
-            self.data = self.read_test_split('Dataset/TestSetA')
+            self.data = self.read_test_split('Dataset/TestSetB')
         elif split == 'test_out':
             print(self.split_path)
             self.data = self.read_split1(self.split_path, self.image_dir)
-        elif split == 'valid':
-            data = self.read_split(self.split_path, 'Dataset')
+        elif split == 'valid1':
+            data = self.read_split(self.split_path, 'Dataset/TrainSet')
             self.data = self.generate_fewshot_dataset(data, num_shots=num_shots, mode=self.mode)
         else:
             data = self.read_split(self.split_path, '')
@@ -1772,7 +1764,7 @@ class JtDataset(Dataset):
             img = self.read_image(datum.impath)
             transformed_img = [self.transform(img)]
 
-            transformed_imgs = [self.transform_s(img) for _ in range(127)]
+            transformed_imgs = [self.transform_s(img) for _ in range(512)]
             #transformed_imgs = jt.concat((transformed_img,jt.array(transformed_imgs)))
             return transformed_img, transformed_imgs, datum.label, datum.impath, index
 
@@ -1845,7 +1837,8 @@ class JtDataset(Dataset):
                 selected_datums = datums
                 fewshot_dataset.extend(selected_datums)
             else:
-                selected_datums = datums
+                random.shuffle(datums)
+                selected_datums = datums[:1]
                 fewshot_dataset.extend(selected_datums)
         return fewshot_dataset
 
@@ -1934,7 +1927,7 @@ def main():
     # 创建训练、验证和测试数据集
     trainset = JtDataset(root_path, 'train', num_shots=num_shots, transform=train_tranform1, mode='train')
     trainset_feature = JtDataset(root_path, 'train', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='train1')
-    valset = JtDataset(root_path, 'valid', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
+    valset = JtDataset(root_path, 'valid1', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
     testset = JtDataset(root_path, 'test', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
 
     val_loader = DataLoader(valset, batch_size=1, num_workers=8, shuffle=False)
@@ -1942,8 +1935,7 @@ def main():
     train_loader = DataLoader(trainset, batch_size=128, num_workers=8, shuffle=True)
     moco_loader_feature = DataLoader(trainset, batch_size=128, num_workers=8, shuffle=False)
     trainset_feature_loader = DataLoader(trainset_feature, batch_size=1, num_workers=8, shuffle=False)
-    #valsetcar = JtDataset(root_path, 'test_out', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
-    #val_loadercar = DataLoader(valsetcar, batch_size=256, num_workers=8, shuffle=False)
+
 
     run_lora(args, trainset_feature_loader, clip_model_zs,  clip_model, logit_scale, dataset, train_loader, moco_loader_feature,val_loader, test_loader)
 

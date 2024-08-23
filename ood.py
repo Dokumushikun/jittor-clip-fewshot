@@ -884,55 +884,10 @@ def split_ood(args, clip_model, loader):
 
 
 
-def pre_load_features(clip_model, loader):
-    features, labels = [], []
-    with jt.no_grad():
-        for i, (images, target,_) in enumerate(tqdm(loader)):
-            images, target = images, target
-            image_features = clip_model.encode_image(images)
-            image_features /= image_features.norm(dim=-1, keepdim=True)
-            features.append(image_features)
-            labels.append(target)
-        features, labels = jt.concat(features), jt.concat(labels)
-
-    return features, labels
 
 
-class EMA():
-    def __init__(self, model, decay):
-        self.model = model
-        self.decay = decay
-        self.shadow = {}
-        self.backup = {}
 
-    def register(self):
-        for name, param in self.model.named_parameters():
-            if param.requires_grad:
-                self.shadow[name] = jt.array(param.data).clone()
 
-    def update(self):
-        for name, param in self.model.named_parameters():
-            if param.requires_grad:
-                if name not in self.shadow:
-                    continue
-                new_average = (1.0 - self.decay) * param.data + self.decay * self.shadow[name]
-                self.shadow[name] = new_average.clone()
-
-    def apply_shadow(self):
-        for name, param in self.model.named_parameters():
-            if param.requires_grad:
-                if name not in self.shadow:
-                    continue
-                self.backup[name] = param.data
-                param.data = self.shadow[name]
-
-    def restore(self):
-        for name, param in self.model.named_parameters():
-            if param.requires_grad:
-                if name not in self.shadow:
-                    continue
-                param.data = self.backup[name]
-        self.backup = {}
 
 
 def encode_text_in_batches(clip_model, texts, batch_size=32):
@@ -980,9 +935,6 @@ class JtDataset(Dataset):
         elif split == 'test_out':
             print(self.split_path)
             self.data = self.read_split1(self.split_path, self.image_dir)
-        elif split == 'tt':
-            data = self.read_split(self.split_path, self.image_dir)
-            self.data = self.generate_fewshot_dataset(data, num_shots=num_shots, mode=self.mode)
         else:
             #data = self.read_split(self.split_path, 'Dataset/TrainSet')
             data = self.read_split(self.split_path, '')
@@ -1001,7 +953,7 @@ class JtDataset(Dataset):
             datum = self.data[index]
             img = self.read_image(datum.impath)
             transformed_img = [self.transform(img)]
-            transformed_imgs = [self.transform_s(img) for _ in range(127)]
+            transformed_imgs = [self.transform_s(img) for _ in range(512)]
             #transformed_imgs = jt.concat((transformed_img,jt.array(transformed_imgs)))
             return transformed_img, transformed_imgs, datum.label, datum.impath
 

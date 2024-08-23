@@ -918,7 +918,7 @@ def encode_text_in_batches(clip_model, texts, batch_size=32):
 
     return jt.concat(all_embeddings, dim=0)
 
-def run_lora(args, clip_model, logit_scale, dataset, train_loader, val_loader, test_loader, val_loadercar):
+def run_lora(args, clip_model, logit_scale, dataset, train_loader, val_loader, test_loader):
     # Textual features
     print("\nGetting textual features as CLIP's classifier.")
     template = load_class_names('text_template')
@@ -928,22 +928,7 @@ def run_lora(args, clip_model, logit_scale, dataset, train_loader, val_loader, t
     # Pre-load val features
     # print("\nLoading visual features and labels from val set.")
     # val_features, val_labels = pre_load_features(clip_model, val_loader)
-    '''
-    # Pre-load test features
-    print("\nLoading visual features and labels from test set.")
-    test_features, test_labels = pre_load_features(clip_model, val_loader)
 
-    test_featurescar, test_labelscar = pre_load_features(clip_model, val_loadercar)
-    # print(len(test_labels),len(test_labelscar))
-    # Zero-shot CLIP
-    clip_logits = logit_scale * test_features @ textual_features
-    zs_acc = cls_acc(clip_logits, test_labels)
-    print("\n**** Zero-shot CLIP's test accuracy: {:.2f}. ****\n".format(zs_acc))
-    
-    clip_logits = logit_scale * test_featurescar @ textual_features
-    zs_acc = cls_acc(clip_logits, test_labelscar)
-    print("\n**** Zero-shot CLIP's test accuracy: {:.2f}. ****\n".format(zs_acc))
-    '''
     list_lora_layers = apply_lora(args, clip_model)
 
     # ema = EMA(clip_model, 0.999)
@@ -1030,8 +1015,8 @@ def run_lora(args, clip_model, logit_scale, dataset, train_loader, val_loader, t
             acc_val,acc_val1,acc_val2 = evaluate_lora(args, clip_model, val_loader)
 
             print("**** Val accuracy: {:.2f} {:.2f} {:.2f} ****\n".format(acc_val,acc_val1,acc_val2))
-            #acc_val = evaluate_lora(args, clip_model, val_loadercar)
-            #print("**** Val accuracy: {:.2f} ****\n".format(acc_val))
+
+
             if acc_val > best_acc:
                 best_acc = acc_val
                 save_lora(args, epoch, list_lora_layers)
@@ -1062,12 +1047,12 @@ class JtDataset(Dataset):
         self.classname_to_label = self.read_classnames(self.classes_path)
 
         if split == 'test':
-            self.data = self.read_test_split('Dataset/TestSetA')
+            self.data = self.read_test_split('Dataset/TestSetB')
         elif split == 'test_out':
             print(self.split_path)
             self.data = self.read_split1(self.split_path, self.image_dir)
-        elif split == 'valid':
-            data = self.read_split(self.split_path, self.image_dir)
+        elif split == 'valid1':
+            data = self.read_split(self.split_path, 'Dataset/TrainSet')
             self.data = self.generate_fewshot_dataset(data, num_shots=num_shots, mode=self.mode)
         else:
             #data = self.read_split(self.split_path, 'Dataset/TrainSet')
@@ -1087,7 +1072,7 @@ class JtDataset(Dataset):
             datum = self.data[index]
             img = self.read_image(datum.impath)
             transformed_img = [self.transform(img)]
-            transformed_imgs = [self.transform_s(img) for _ in range(127)]
+            transformed_imgs = [self.transform_s(img) for _ in range(512)]
             #transformed_imgs = jt.concat((transformed_img,jt.array(transformed_imgs)))
             return transformed_img, transformed_imgs, datum.label, datum.impath
 
@@ -1216,7 +1201,7 @@ def main():
     ])
 
     train_tranform2 = T.Compose([
-        T.RandomResizedCrop(size=224, scale=(0.5, 1)),
+        T.RandomResizedCrop(size=224, scale=(0.2, 1)),
         T.RandomHorizontalFlip(p=0.5),
         T.ImageNormalize(mean=(0.48145466, 0.4578275, 0.40821073), std=(0.26862954, 0.26130258, 0.27577711)),
         T.ToTensor()
@@ -1232,10 +1217,9 @@ def main():
     test_loader = DataLoader(testset, batch_size=1, num_workers=8, shuffle=False)
     train_loader = DataLoader(trainset, batch_size=256, num_workers=8, shuffle=True)
 
-    valsetcar = JtDataset(root_path, 'test_out', num_shots=num_shots, transform=preprocess, mode='test')
-    val_loadercar = DataLoader(valsetcar, batch_size=256, num_workers=8, shuffle=False)
 
-    run_lora(args, clip_model, logit_scale, dataset, train_loader, val_loader, test_loader, val_loadercar)
+
+    run_lora(args, clip_model, logit_scale, dataset, train_loader, val_loader, test_loader)
 
 
 if __name__ == '__main__':
