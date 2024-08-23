@@ -52,4 +52,3 @@ python test.py
 ### 2. 训练
 ```bash
 bash train.sh
-``
