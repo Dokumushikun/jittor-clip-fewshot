@@ -1841,7 +1841,7 @@ def run_test1(args, clip_model_zs, clip_model, logit_scale, dataset,  test_loade
 
 
     input_file = 'final_results/top5_results6.txt'
-    output_file = 'result.txt'  
+    output_file = 'final_results/result.txt'  
 
     with open(input_file, 'r') as infile, open(output_file, 'w') as outfile:
         for line in infile:
