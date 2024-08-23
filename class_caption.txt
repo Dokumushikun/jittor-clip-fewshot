@@ -1,0 +1,374 @@
+A picture of Monkey, a primate with a long tail, agile limbs, and expressive eyes. Monkeys are often seen swinging from trees and eating fruits.
+A picture of bonsai, a miniature tree, carefully pruned and trained to look like a full-sized tree. Bonsai trees are often displayed in shallow pots.
+A picture of pagoda, a multi-tiered tower with upturned eaves, often found in Asian architecture. Pagodas are typically ornate and colorful.
+A picture of Samoyed, a fluffy, white dog with a thick double coat, erect ears, and a "smiling" expression. Samoyeds are friendly and gentle.
+A picture of mussels, small, edible shellfish with dark, elongated shells. Mussels are often served steamed and opened.
+A picture of Brabancon_griffo, a small dog with a distinctive, almost human-like face and a short, rough coat. Often seen with a curious and alert expression.
+A picture of Shih_Tzu, a small dog with a long, flowing coat, often groomed into a topknot. Shih Tzus have a rounded face and a friendly demeanor.
+A picture of Irish_terrier, a medium-sized dog with a wiry, red coat and a sturdy build. Known for their bold and spirited nature.
+A picture of Appenzeller, a medium-sized dog with a short, tricolor coat (black, white, and tan). Appenzellers are agile and energetic.
+A picture of Sussex_spaniel, a small to medium-sized dog with a long, low body and a dense, wavy coat. Typically golden liver in color with expressive eyes.
+A picture of Lion, a large, majestic feline with a muscular build and a mane of hair around its head. Lions are often depicted roaring or resting in grasslands.
+A picture of pad_thai, a Thai noodle dish with stir-fried rice noodles, shrimp, tofu, bean sprouts, and peanuts. Often garnished with lime and cilantro.
+A picture of crab_cakes, fried patties made from crab meat, breadcrumbs, and seasonings. Crab cakes are golden brown and often served with a dipping sauce.
+A picture of Butterfly, an insect with large, colorful wings and a slender body. Butterflies are often seen fluttering around flowers.
+A picture of macarons, small, round French pastries with a smooth, crisp shell and a soft, chewy interior. Typically filled with ganache or buttercream.
+A picture of Welsh_springer_spaniel, a medium-sized dog with a red and white coat, long ears, and a gentle expression. Known for their friendly and active nature.
+A picture of Fox, a small to medium-sized canine with a bushy tail, pointed ears, and a reddish-brown coat. Foxes are often depicted in woodland settings.
+A picture of breakfast_burrito, a tortilla filled with scrambled eggs, cheese, potatoes, and often bacon or sausage. Breakfast burritos are wrapped and served hot.
+A picture of tuna_tartare, a dish of finely chopped raw tuna, often seasoned with soy sauce, sesame oil, and garnished with herbs or avocado.
+A picture of basenji, a small, elegant dog with a short coat, curled tail, and erect ears. Basenjis are known for their quiet nature and expressive face.
+A picture of caprese_salad, a simple Italian salad with slices of fresh mozzarella, tomatoes, and basil, drizzled with olive oil and balsamic vinegar.
+A picture of pho, a Vietnamese soup consisting of broth, rice noodles, herbs, and meat, usually beef or chicken. Often garnished with lime and bean sprouts.
+A picture of scorpion, an arachnid with a segmented tail that ends in a venomous stinger. Scorpions have pincers and a tough exoskeleton.
+A picture of beef_carpaccio, thinly sliced raw beef, typically served with olive oil, lemon juice, and shaved Parmesan. Often garnished with arugula or capers.
+A picture of gyoza, japanese dumplings filled with ground meat and vegetables, pan-fried to a crisp on one side and steamed on the other.
+A picture of Doberman, a sleek, muscular dog with a short coat and a strong, athletic build. Dobermans are often black and tan with a confident stance.
+A picture of stapler, a handheld device used to fasten sheets of paper together with metal staples. Staplers are typically made of metal and plastic.
+A picture of Kangaroo, a large marsupial with powerful hind legs, a long tail, and a pouch for carrying young. Kangaroos are often seen hopping in the wild.
+A picture of rhino, a large, thick-skinned mammal with one or two horns on its snout. Rhinos are known for their massive size and armor-like hide.
+A picture of paella, a Spanish rice dish cooked with saffron, various meats, seafood, and vegetables. Often served in a large, shallow pan.
+A picture of Bedlington_terrier, a small to medium-sized dog with a distinctive lamb-like appearance, curly coat, and arched back. Known for their lively and affectionate nature.
+A picture of Horse, a large, strong mammal with a long mane and tail, often used for riding and work. Horses are seen in various colors and breeds.
+A picture of metronome, a device that produces a regular, ticking sound to help musicians keep time. Metronomes are often pyramid-shaped with a swinging pendulum.
+A picture of Yorkshire_terrier, a small dog with a long, silky coat, often groomed with a bow. Yorkies are energetic and have a feisty personality.
+A picture of cannon, a large, heavy artillery piece used for firing projectiles. Cannons are often seen in historical settings or military displays.
+A picture of bull_mastiff, a large, powerful dog with a short coat and a broad head. Bull Mastiffs are known for their protective and loyal nature.
+A picture of Japanese_spaniel, a small, elegant dog with a distinctive pushed-in face and a long, flowing coat. Often seen with a playful and affectionate demeanor.
+A picture of watch, a small, portable timepiece worn on the wrist or carried in a pocket. Watches come in various styles, from digital to analog.
+A picture of foie_gras, a rich, buttery delicacy made from the liver of a specially fattened duck or goose. Often served as a pâté or with toast.
+A picture of standard_poodle, a large dog with a curly coat, often groomed in a distinctive clipped style. Poodles are known for their intelligence and elegance.
+A picture of dalmatian, a medium to large-sized dog with a short coat and distinctive black or liver spots. Dalmatians are known for their energetic and friendly nature.
+A picture of rooster, a male chicken with a bright red comb and wattles, and often colorful plumage. Roosters are known for their crowing.
+A picture of ravioli, italian pasta filled with various ingredients such as cheese, meat, or vegetables. Ravioli are typically square and served with sauce.
+A picture of Walker_hound, a medium to large-sized dog with a short coat, typically tricolor (black, white, and tan). Known for their hunting abilities.
+A picture of clumber, a large, heavyset dog with a dense, white coat and drooping ears. Clumber Spaniels are known for their calm and affectionate nature.
+A picture of Rhinoceros, a large, thick-skinned mammal with one or two horns on its snout. Rhinos are known for their massive size and armor-like hide.
+A picture of German_short_haired_pointer, a medium to large-sized dog with a short coat, often liver or liver and white. Known for their hunting abilities and energy.
+A picture of beet_salad, a salad made with cooked beets, often combined with greens, goat cheese, and nuts. Dressed with vinaigrette or balsamic reduction.
+A picture of dollar_bill, a paper currency note, typically green and printed with various symbols and portraits. Used as a form of money in the United States.
+A picture of malamute, a large, powerful dog with a thick double coat, often gray and white. Malamutes are known for their strength and endurance.
+A picture of Pekinese, a small dog with a long, flowing coat, a pushed-in face, and a lion-like mane. Known for their dignified and independent nature.
+A picture of Swan, a large, graceful bird with a long neck, white or black plumage, and an orange or black bill. Swans are often seen gliding on water.
+A picture of Zebra, a hoofed mammal with a distinctive black and white striped coat. Zebras are often seen in herds on the African savanna.
+A picture of miso_soup, a traditional Japanese soup made with miso paste, tofu, seaweed, and green onions. Often served as an appetizer.
+A picture of Leopard, a large, powerful feline with a golden coat covered in dark rosettes. Leopards are known for their agility and solitary nature.
+A picture of ceiling_fan, a mechanical device mounted on the ceiling that rotates to circulate air. Ceiling fans typically have blades and a light fixture.
+A picture of spaghetti_carbonara, an Italian pasta dish made with eggs, cheese, pancetta, and black pepper. Often served hot and garnished with parsley.
+A picture of Rabbit, a small, furry mammal with long ears, a short tail, and strong hind legs. Rabbits are often seen hopping in fields or gardens.
+A picture of Chesapeake_Bay_retriever, a medium to large-sized dog with a dense, wavy coat, often brown or deadgrass in color. Known for their hunting and retrieving skills.
+A picture of dumplings, small pieces of dough filled with meat, vegetables, or fruit. Dumplings can be boiled, steamed, or fried.
+A picture of steak, a thick slice of meat, usually beef, cooked by grilling, broiling, or frying. Steaks are often served with sides like potatoes and vegetables.
+A picture of escargots, edible land snails, typically prepared with garlic butter and parsley. Often served as a delicacy in French cuisine.
+A picture of mandolin, a stringed musical instrument with a pear-shaped body and a neck. Mandolins are often used in folk and classical music.
+A picture of umbrella, a collapsible canopy supported by metal ribs, used for protection against rain or sun. Umbrellas are often portable and come in various colors.
+A picture of giant_schnauzer, a large, robust dog with a dense, wiry coat, often black or pepper and salt. Known for their intelligence and protective nature.
+A picture of Polar_bear, a large bear with white fur, a long neck, and a powerful build. Polar bears are often seen in Arctic regions, hunting seals on ice.
+A picture of German_shepherd, a large, agile dog with a double coat, often black and tan. Known for their intelligence, loyalty, and versatility in various roles.
+A picture of Faces, human faces with distinct features such as eyes, nose, mouth, and expressions. Faces can convey a wide range of emotions.
+A picture of Norwegian_elkhound, a medium-sized dog with a thick, gray coat and a curled tail. Known for their hunting skills and alert nature.
+A picture of Cardigan, a medium-sized dog with a long body, short legs, and a thick coat. Often seen in various colors and known for their herding abilities.
+A picture of yin_yang, a symbol representing the concept of duality in ancient Chinese philosophy. Typically depicted as a circle divided into black and white halves.
+A picture of Irish_wolfhound, a very large dog with a rough coat, often gray or brindle. Known for their gentle and friendly nature.
+A picture of poutine, a Canadian dish consisting of fries topped with cheese curds and gravy. Often served hot and enjoyed as comfort food.
+A picture of Penguin, a flightless bird with a black and white plumage, short wings adapted for swimming, and a waddling gait. Often seen in Antarctic regions.
+A picture of octopus, a marine animal with a soft, bulbous body, eight arms with suction cups, and the ability to change color. Known for their intelligence and camouflage skills.
+A picture of American_Staffordshire_terrier, a muscular, medium-sized dog with a short coat, broad head, and strong jaws. Often depicted with a friendly and alert expression.
+A picture of Maltese_dog, a small dog with a long, silky white coat and a sweet, lively demeanor. Known for their playful and affectionate nature.
+A picture of strawberry_shortcake, a dessert made with layers of sponge cake, fresh strawberries, and whipped cream. Often garnished with a whole strawberry on top.
+A picture of ferry, a boat or ship used to transport passengers and vehicles across bodies of water. Ferries are often large and can accommodate many people and cars.
+A picture of Peacock, a bird known for its vibrant, iridescent blue and green plumage and large, fan-shaped tail adorned with eye-like patterns. Peacocks are often seen displaying their tail feathers in courtship rituals.
+A picture of crocodile_head, the head of a crocodile, characterized by a long snout, sharp teeth, and tough, scaly skin. Often seen with its mouth open.
+A picture of cougar_body, the body of a cougar, a large feline with a muscular build, tawny coat, and a long tail. Known for their agility and strength.
+A picture of ice_cream, a frozen dessert made from cream, sugar, and flavorings. Often served in cones, cups, or as sundaes, and available in various flavors.
+A picture of crocodile, a large, semi-aquatic reptile with a long snout, powerful jaws, and tough, scaly skin. Crocodiles are often seen in rivers and wetlands.
+A picture of miniature_pinscher, a small dog with a sleek, short coat and a lively, energetic demeanor. Often seen in black and tan or red colors.
+A picture of Motorbikes, two-wheeled motor vehicles used for transportation and sport. Motorbikes are often depicted with sleek designs and powerful engines.
+A picture of Donkey, a domesticated hoofed mammal with long ears, a short mane, and a sturdy build. Donkeys are often used as working animals.
+A picture of Sheep, a domesticated mammal with a thick woolly coat, often seen grazing in fields. Sheep are raised for their wool, meat, and milk.
+A picture of takoyaki, a Japanese snack made of batter filled with diced octopus, green onions, and pickled ginger, cooked in a special molded pan.
+A picture of pork_chop, a cut of pork, typically served grilled or pan-fried. Pork chops are often seasoned and served with various sides.
+A picture of Saluki, a slender, elegant dog with a smooth coat and feathered tail. Known for their speed and grace, often used in hunting.
+A picture of Australian_Shepherd, a medium-sized dog with a thick coat, often merle (mottled) in color, and a bobtail. Known for their intelligence and agility.
+A picture of saxophone, a brass musical instrument with a curved body and a single reed mouthpiece. Often used in jazz and classical music.
+A picture of hummus, a Middle Eastern dip made from blended chickpeas, tahini, lemon juice, and garlic. Often served with pita bread or vegetables.
+A picture of prime_rib, a succulent cut of beef roast, typically served medium-rare with a rich, juicy center and a seasoned crust. Often accompanied by sides such as mashed potatoes and vegetables.
+A picture of cup, a small, round container used for drinking liquids. Cups come in various materials such as ceramic, glass, and plastic.
+A picture of hawksbill, a species of sea turtle known for its narrow, pointed beak and beautifully patterned shell. Often seen in tropical coral reefs.
+A picture of otterhound, a large, shaggy dog with a waterproof coat and webbed feet. Known for their ability to hunt otters and swim well.
+A picture of bruschetta, an Italian appetizer consisting of grilled bread topped with tomatoes, garlic, basil, and olive oil. Often served as an antipasto.
+A picture of redbone, a medium to large-sized dog with a sleek, muscular build and a short, shiny reddish-brown coat. Redbone Coonhounds have a keen sense of smell and are often used for hunting.
+A picture of keeshond, a medium-sized dog with a thick double coat, usually gray and black, and a distinctive "spectacles" pattern around the eyes. Known for their friendly and alert nature.
+A picture of accordion, a portable musical instrument with a keyboard and bellows. The accordion produces sound by pushing air through reeds.
+A picture of grilled_cheese_sandwich, a sandwich made with melted cheese between slices of bread, grilled until golden brown. Often served with tomato soup.
+A picture of chicken_wings, sections of chicken wings that are often fried or baked and coated in various sauces. Chicken wings are a popular appetizer or snack.
+A picture of shrimp_and_grits, a Southern dish consisting of shrimp cooked with spices and served over creamy grits. Often garnished with green onions or bacon.
+A picture of ramen, a Japanese noodle soup with broth, wheat noodles, and various toppings such as meat, eggs, and vegetables. Often enjoyed hot.
+A picture of caesar_salad, a salad made with romaine lettuce, croutons, Parmesan cheese, and Caesar dressing. Often topped with grilled chicken or anchovies.
+A picture of euphonium, a brass musical instrument similar to a tuba but smaller. The euphonium has a rich, mellow sound and is used in orchestras and bands.
+A picture of chocolate_mousse, a light, airy dessert made with whipped cream, eggs, and chocolate. Often served in cups or glasses and garnished with whipped cream or chocolate shavings.
+A picture of huevos_rancheros, a Mexican breakfast dish consisting of fried eggs on tortillas, topped with salsa, beans, and avocado. Often served with rice.
+A picture of miniature_schnauzer, a small, sturdy dog with a wiry coat, often salt and pepper or black. Known for their alert and energetic nature.
+A picture of falafel, deep-fried balls or patties made from ground chickpeas, herbs, and spices. Often served in pita bread with vegetables and tahini sauce.
+A picture of beaver, a large, semiaquatic rodent with a flat, paddle-shaped tail and sharp teeth for gnawing wood. Beavers are known for building dams and lodges.
+A picture of tiramisu, an Italian dessert made with layers of coffee-soaked ladyfingers, mascarpone cheese, and cocoa powder. Often served chilled.
+A picture of macaroni_and_cheese, a comfort food dish made with cooked macaroni pasta and a creamy cheese sauce. Often baked until bubbly and golden brown.
+A picture of Seal, a marine mammal with a streamlined body, flippers, and a thick layer of blubber. Seals are often seen lounging on ice or rocks near the ocean.
+A picture of Flamingo, a tall, wading bird with pink or reddish feathers, long legs, and a distinctive curved beak. Flamingos are often seen in shallow waters.
+A picture of gramophone, an old-fashioned device for playing recorded music, using a needle and a rotating disc. Gramophones often have a large horn for amplifying sound.
+A picture of Bear, a large, powerful mammal with a thick fur coat, sharp claws, and a strong build. Bears are often seen foraging for food or hibernating.
+A picture of borzoi, a large, elegant dog with a long, narrow head and a silky coat. Known for their speed and grace, often used in hunting.
+A picture of Siberian_husky, a medium-sized dog with a thick double coat, often black and white, and striking blue or multicolored eyes. Huskies are known for their endurance and friendly nature.
+A picture of stegosaurus, a large, herbivorous dinosaur with distinctive bony plates along its back and a spiked tail. Often depicted in prehistoric landscapes.
+A picture of Gordon_setter, a large, elegant dog with a long, black and tan coat. Known for their hunting abilities and loyal nature.
+A picture of Bee, a small, flying insect with a fuzzy body, often yellow and black striped, and transparent wings. Bees are known for their role in pollination and honey production.
+A picture of beef_tartare, a dish of finely chopped raw beef, often seasoned with spices and served with a raw egg yolk on top. Often garnished with capers and onions.
+A picture of Fila_Braziliero, a large, powerful dog with a short coat and a distinctive loose skin. Known for their loyalty and protective nature.
+A picture of mayfly, a small, delicate insect with transparent wings and a short lifespan. Mayflies are often seen near water bodies.
+A picture of Mexican_hairless, a small to medium-sized dog with little to no hair and a sleek, smooth skin. Known for their affectionate and playful nature.
+A picture of headphone, a pair of small speakers worn over or in the ears to listen to audio. Headphones are often used with portable devices and come in various styles.
+A picture of Otter, a playful, semiaquatic mammal with a long, streamlined body, webbed feet, and thick fur. Otters are often seen swimming and playing in rivers and lakes.
+A picture of Goose, a large bird with a long neck, webbed feet, and a distinctive honking call. Geese are often seen in flocks near water bodies.
+A picture of English_setter, a medium to large-sized dog with a long, silky coat, often speckled with various colors. Known for their hunting abilities and gentle nature.
+A picture of kuvasz, a large, sturdy dog breed with a thick, white coat and a noble, alert expression. Kuvasz dogs are known for their protective nature and loyalty.
+A picture of bloodhound, a large dog with loose, wrinkled skin and a keen sense of smell. Known for their tracking abilities and gentle nature.
+A picture of spring_rolls, a type of Asian appetizer consisting of thin pastry filled with vegetables, meat, or seafood, rolled and often fried.
+A picture of gnocchi, small Italian dumplings made from potatoes, flour, and eggs. Often served with various sauces such as tomato, pesto, or butter.
+A picture of black_and_tan_coonhound, a large dog with a short black coat and tan markings. Known for their excellent sense of smell and hunting abilities.
+A picture of Caribou, a large, deer-like mammal with antlers and a thick coat. Caribou are often seen in herds, migrating across the tundra.
+A picture of grilled_salmon, a fillet of salmon fish grilled to perfection, often served with a squeeze of lemon and side vegetables.
+A picture of chicken_curry, a spicy dish made with chicken cooked in a sauce of onions, tomatoes, and various spices. Often served with rice or bread.
+A picture of Squirrel, a small, agile rodent with a bushy tail and sharp claws. Squirrels are often seen climbing trees and gathering nuts.
+A picture of minaret, a tall, slender tower attached to a mosque, often with a balcony from which the call to prayer is announced.
+A picture of churros, deep-fried dough pastries, often sprinkled with sugar and cinnamon, and sometimes served with chocolate sauce for dipping.
+A picture of helicopter, a type of aircraft with rotating blades that allow it to take off and land vertically. Often used for transport, rescue, and surveillance.
+A picture of snoopy, a fictional beagle from the comic strip "Peanuts," known for his imaginative adventures and iconic doghouse.
+A picture of cougar_face, the face of a cougar, a large feline with a muscular build and a tawny coat. Known for their agility and strength.
+A picture of basset, a short-legged dog with a long body, drooping ears, and a sad, expressive face. Known for their excellent sense of smell.
+A picture of EntleBucher, a medium-sized dog with a short, tricolor coat (black, white, and tan). Known for their herding abilities and energetic nature.
+A picture of Bouvier_des_Flandres, a large, powerful dog with a rough, shaggy coat, often black or brindle. Known for their working abilities and protective nature.
+A picture of Tiger, a large, powerful feline with a distinctive orange coat and black stripes. Tigers are known for their strength and solitary nature.
+A picture of Cat, a small, domesticated feline with soft fur, sharp claws, and a playful demeanor. Cats are often kept as pets and come in various breeds and colors.
+A picture of inline_skate, a type of roller skate with a single row of wheels arranged in a line. Often used for recreational skating or sport.
+A picture of Norfolk_terrier, a small, sturdy dog with a wiry coat and a lively, affectionate personality. Often seen with a scruffy appearance.
+A picture of teddy, a soft, stuffed bear toy, often made of plush material and designed for children. Teddies come in various sizes and colors.
+A picture of cairn, a small, sturdy dog with a wiry coat, often brindle or gray. Known for their playful and fearless nature.
+A picture of sashimi, thinly sliced raw fish or seafood, often served with soy sauce, wasabi, and pickled ginger. A staple of Japanese cuisine.
+A picture of car_side, the side view of a car, showing the doors, windows, and wheels. Often used in automotive design and advertising.
+A picture of English_springer, a medium-sized dog with a long, silky coat, often black and white or liver and white. Known for their hunting abilities and friendly nature.
+A picture of crab, a marine crustacean with a broad, flat body, pincers, and a hard shell. Often seen scuttling sideways on the beach or in the water.
+A picture of tick, a small, oval-shaped arachnid with eight legs, often found attached to the skin of animals and humans. Ticks are usually brown or black and can expand when engorged with blood.
+A picture of Lakeland_terrier, a small, sturdy dog with a wiry coat, often black and tan or blue and tan. Known for their energetic and bold nature.
+A picture of revolver, a type of handgun with a revolving cylinder that holds multiple rounds of ammunition. Often used in historical and western contexts.
+A picture of African_hunting_dog, a wild dog with a slender build, large rounded ears, and a patchy coat of black, white, and brown. Known for their social behavior and hunting in packs.
+A picture of Raccoon, a small, nocturnal mammal with a distinctive black mask across its face and a bushy, ringed tail. Raccoons are often seen scavenging for food.
+A picture of toy_poodle, a small, elegant dog with a curly coat, often groomed in a distinctive clipped style. Known for their intelligence and lively personality.
+A picture of Cow, a large domesticated ungulate with a sturdy body, short hair, and often depicted with black and white patches. Cows are commonly raised for milk, meat, and leather.
+A picture of lasagna, an Italian dish made with layers of pasta, meat or vegetables, cheese, and tomato sauce. Often baked until bubbly and golden brown.
+A picture of lobster_roll_sandwich, a sandwich filled with chunks of lobster meat, often mixed with mayonnaise, served in a split-top hot dog bun.
+A picture of gerenuk, a long-necked antelope with large eyes and ears, often seen standing on its hind legs to browse leaves from trees.
+A picture of chicken_quesadilla, a Mexican dish made with a tortilla filled with cheese and chicken, folded in half and grilled until crispy.
+A picture of toy_terrier, a small, delicate dog with a short coat and a lively, playful nature. Often seen with large, expressive eyes.
+A picture of brontosaurus, a large, herbivorous dinosaur with a long neck and tail, and a massive, bulky body. Often depicted in prehistoric landscapes.
+A picture of waffles, a breakfast dish made from batter cooked in a waffle iron, creating a grid pattern. Often served with syrup, butter, and various toppings.
+A picture of Border_collie, a medium-sized dog with a thick coat, often black and white or merle. Known for their intelligence and herding abilities.
+A picture of cocker_spaniel, a medium-sized dog with long, floppy ears and a wavy coat. Known for their friendly and affectionate nature.
+A picture of cannoli, an Italian dessert consisting of a fried pastry shell filled with sweet ricotta cheese and often garnished with chocolate chips or candied fruit.
+A picture of cheese_plate, an assortment of different cheeses, often served with crackers, fruits, and nuts. A popular appetizer or snack.
+A picture of tacos, a traditional Mexican dish consisting of a folded or rolled tortilla filled with various ingredients such as meat, cheese, and vegetables.
+A picture of Rottweiler, a large, robust dog with a short, black coat and distinct tan markings on the face, chest, and legs. Rottweilers have a powerful build and a confident demeanor.
+A picture of garfield, a fictional orange tabby cat from the comic strip "Garfield," known for his lazy and sardonic personality.
+A picture of Sparrow, a small, brown and gray bird with a short tail and a stout beak. Sparrows are often seen in urban and rural areas.
+A picture of risotto, an Italian rice dish cooked with broth until creamy, often flavored with saffron, mushrooms, or seafood.
+A picture of Pomeranian, a small, fluffy dog with a thick double coat, erect ears, and a fox-like face. Pomeranians are known for their lively and affectionate nature.
+A picture of Bird, a warm-blooded vertebrate with feathers, wings, and a beak. Birds are often seen flying, perching, or foraging.
+A picture of clam_chowder, a creamy soup made with clams, potatoes, onions, and celery. Often served hot and garnished with parsley or bacon.
+A picture of buddha, a statue or representation of Siddhartha Gautama, the founder of Buddhism. Often depicted in a seated, meditative pose.
+A picture of croque_madame, a French sandwich consisting of ham and cheese between slices of bread, topped with a fried egg and béchamel sauce. Often served hot and garnished with herbs.
+A picture of crayfish, a small, freshwater crustacean with a hard shell and pincers. Often seen in rivers and streams, and sometimes used in cooking.
+A picture of sea_horse, a small marine fish with a horse-like head, prehensile tail, and bony armor. Sea horses are often seen clinging to seaweed or coral.
+A picture of wrench, a hand tool used for gripping and turning nuts, bolts, and pipes. Wrenches come in various sizes and types.
+A picture of briard, a large, sturdy dog with a long, wavy coat, often black, fawn, or gray. Known for their herding abilities and protective nature.
+A picture of scallops, edible marine mollusks with a fan-shaped shell. Scallops are often cooked and served as a delicacy.
+A picture of Bernese_mountain_dog, a large, sturdy dog with a thick, tricolor coat (black, white, and rust). Known for their gentle and friendly nature.
+A picture of cheesecake, a rich dessert made with a crust and a creamy filling of cream cheese, sugar, and eggs. Often topped with fruit or chocolate.
+A picture of sunflower, a tall plant with a large, yellow flower head that turns to face the sun. Sunflowers are often seen in fields or gardens.
+A picture of bass, a type of fish with a streamlined body, often seen in freshwater or coastal waters. Known for their sporting qualities.
+A picture of ewer, a large, decorative pitcher with a wide mouth and a handle. Often used for serving liquids or as a decorative piece.
+A picture of samosa, a fried or baked pastry filled with spiced potatoes, peas, and sometimes meat. Often served with chutney.
+A picture of Tibetan_mastiff, a large, imposing dog with a thick double coat, often black, brown, or gold. Tibetan Mastiffs have a noble and protective demeanor, used historically as guard dogs.
+A picture of airplanes, aircraft with fixed wings and engines, used for transporting passengers and cargo. Often depicted flying or parked at airports.
+A picture of lobster, a large marine crustacean with a long body, muscular tail, and large pincers. Often cooked and served as a delicacy.
+A picture of Greater_Swiss_Mountain_dog, a large, powerful dog with a short, tricolor coat (black, white, and rust). Known for their working abilities and friendly nature.
+A picture of okapi, a giraffe-like mammal with a long neck, striped legs, and a reddish-brown body. Often seen in dense forests.
+A picture of Whale, a large marine mammal with a streamlined body, a blowhole on top of its head, and a horizontal tail fin. Whales are often seen breaching the water's surface or swimming gracefully in the ocean.
+A picture of Ibizan_hound, a slender, elegant dog with a short coat and large, upright ears. Known for their speed and agility.
+A picture of joshua_tree, a unique, spiky tree native to the deserts of the southwestern United States. Known for its twisted, branching structure.
+A picture of beignets, deep-fried dough pastries, often dusted with powdered sugar. Beignets are a popular treat in New Orleans.
+A picture of deviled_eggs, hard-boiled eggs halved and filled with a mixture of egg yolk, mayonnaise, mustard, and spices. Often garnished with paprika or herbs.
+A picture of hamburger, a sandwich consisting of a cooked ground beef patty, often served with lettuce, tomato, cheese, and condiments in a bun.
+A picture of Sea_lion, a large, marine mammal with external ear flaps, long flippers, and a sleek body. Sea lions are often seen basking on rocks or performing acrobatics in the water.
+A picture of Black_sable, a dog with a dark, sable-colored coat, often used to describe certain breeds like the German Shepherd. The coat is usually a mix of black and brown hairs.
+A picture of Scottish_deerhound, a tall, slender dog with a wiry coat, often gray or brindle in color. Deerhounds are known for their grace and speed, originally bred for hunting deer.
+A picture of Elephant, a large land mammal with thick gray skin, a long trunk, large ears, and tusks. Elephants are often seen in herds, using their trunks for feeding, drinking, and communication.
+A picture of Australian_terrier, a small, sturdy dog with a rough coat and a lively, alert expression. Known for their friendly and energetic nature.
+A picture of lotus, an aquatic plant with large, round leaves and showy flowers, often seen floating on the surface of ponds and lakes.
+A picture of french_fries, thinly sliced potatoes deep-fried until crispy and golden brown. Often served with ketchup or other dipping sauces.
+A picture of fried_calamari, rings and tentacles of squid, breaded and deep-fried until golden brown. Often served with marinara sauce or aioli.
+A picture of sushi, a Japanese dish consisting of vinegared rice, raw fish, and vegetables, often rolled in seaweed. Served with soy sauce, wasabi, and pickled ginger.
+A picture of curly_coated_retriever, a large dog with a distinctive curly coat, often black or liver. Known for their hunting and retrieving skills.
+A picture of Scotch_terrier, a small, sturdy dog with a wiry coat and a distinctive beard. Known for their bold and independent nature.
+A picture of Bichon_Frise, a small, fluffy dog with a curly, white coat and a cheerful, playful demeanor. Known for their friendly and affectionate nature.
+A picture of Blenheim_spaniel, a small dog with a long, silky coat, often red and white. Known for their friendly and gentle nature.
+A picture of baby_back_ribs, pork ribs cooked until tender and often coated with barbecue sauce. Often served as a main dish with sides.
+A picture of nautilus, a marine mollusk with a spiral shell and numerous tentacles. Known for its buoyancy and unique shell structure.
+A picture of Tibetan_terrier, a medium-sized dog with a long, flowing coat and a cheerful expression. Known for their friendly and adaptable nature.
+A picture of flat_coated_retriever, a large dog with a sleek, shiny coat, often black or liver. Known for their friendly and outgoing nature.
+A picture of chandelier, a decorative hanging light fixture with branches for holding bulbs or candles. Often ornate and used in formal settings.
+A picture of French_bulldog, a small dog with a muscular build, a short coat, and distinctive bat-like ears. Known for their friendly and playful nature.
+A picture of boxer, a medium to large-sized dog with a muscular build, short coat, and a distinctive square jaw. Boxers are often fawn or brindle with a playful and energetic personality.
+A picture of Airedale, a large terrier with a dense, wiry coat, often tan and black. Known for their intelligence and bold nature.
+A picture of wild_cat, a small, solitary feline with a thick coat and a bushy tail. Often seen in forests and grasslands, hunting for small prey.
+A picture of Chicken, a domesticated bird with a plump body, short wings, and a comb on its head. Chickens are often raised for their meat and eggs.
+A picture of brain, the human brain, characterized by its convoluted surface, consisting of ridges (gyri) and grooves (sulci). It is typically depicted in shades of gray and beige.
+A picture of starfish, a marine animal with a central disc and five or more radiating arms. Often seen in tidal pools and on the ocean floor.
+A picture of hedgehog, a small, spiny mammal with a compact body and a pointed snout. Known for curling into a ball for protection.
+A picture of papillon, a small dog with large, butterfly-like ears and a long, silky coat. Known for their friendly and lively nature.
+A picture of chinese_rural_dog, a medium-sized dog with a short coat, often seen in rural areas of China. Known for their loyalty and adaptability.
+A picture of creme_brulee, a rich custard dessert topped with a layer of hardened caramelized sugar. Often served with fresh berries.
+A picture of Kerry_blue_terrier, a medium-sized dog with a dense, curly blue-gray coat. Known for their intelligence and playful nature.
+A picture of Lhasa, a small dog with a long, flowing coat and a dignified expression. Known for their alert and independent nature.
+A picture of Staffordshire_bullterrier, a muscular, medium-sized dog with a short coat and a strong, sturdy build. Known for their loyalty and affectionate nature.
+A picture of Pig, a domesticated mammal with a stout body, short legs, and a snout for rooting. Pigs are often raised for their meat and are known for their intelligence.
+A picture of Orangutan, a large, arboreal ape with long, reddish-brown hair and long arms. Known for their intelligence and solitary nature.
+A picture of lamp, a device that produces light, typically with a bulb and a shade. Lamps come in various styles and are used for lighting rooms.
+A picture of Leopards, large, powerful felines with golden coats covered in dark rosettes. Leopards are known for their agility and solitary nature.
+A picture of Newfoundland, a large, powerful dog with a thick double coat, often black or brown. Known for their swimming abilities and gentle nature.
+A picture of nachos, a Mexican dish consisting of tortilla chips topped with melted cheese, jalapeños, beans, and other toppings. Often served as a snack or appetizer.
+A picture of bluetick, a medium-sized dog with a short, speckled blue coat and a keen sense of smell. Known for their hunting abilities.
+A picture of Boston_bull, a small, muscular dog with a short coat, often black and white. Known for their friendly and lively nature.
+A picture of ketch, a two-masted sailing vessel with the forward mast taller than the aft mast. Often used for cruising and racing.
+A picture of ibis, a bird with long legs, a slender, downward-curving bill, and white or colorful plumage. Ibises are often found wading in shallow waters.
+A picture of Afghan_hound, a large, elegant dog with a long, flowing coat and a regal appearance. Known for their speed and aloof nature.
+A picture of hot_and_sour_soup, a Chinese soup with a spicy and tangy flavor, often made with tofu, mushrooms, and bamboo shoots.
+A picture of pancakes, flat, round cakes made from a batter and cooked on a griddle. Often served with syrup, butter, and various toppings.
+A picture of affenpinscher, a small dog with a wiry coat and a distinctive, almost human-like face. Known for their playful and mischievous nature.
+A picture of vizsla, a medium-sized dog with a short, sleek coat, often golden rust in color. Known for their hunting abilities and affectionate nature.
+A picture of filet_mignon, a tender cut of beef, often grilled or pan-seared and served with a sauce or garnishments.
+A picture of kelpie, a medium-sized dog with a short coat and a strong, agile build. Known for their herding abilities and intelligence.
+A picture of Chihuahua, a small dog with a short or long coat, often seen with large, expressive eyes. Known for their lively and bold personality.
+A picture of golden_retriever, a large dog with a dense, golden coat and a friendly, gentle demeanor. Known for their intelligence and versatility.
+A picture of peking_duck, a Chinese dish consisting of roasted duck with crispy skin, served with pancakes, hoisin sauce, and scallions.
+A picture of bread_pudding, a dessert made with stale bread, milk, eggs, sugar, and spices. Often baked until golden and served with a sauce.
+A picture of dragonfly, an insect with large, multifaceted eyes, two pairs of strong, transparent wings, and an elongated body. Often seen near water.
+A picture of malinois, a medium-sized dog with a short coat, often fawn with a black mask. Known for their working abilities and intelligence.
+A picture of ant, a small, social insect with a segmented body and six legs. Often seen in large colonies, working together to gather food.
+A picture of ceviche, a Latin American dish made with raw fish marinated in citrus juice, often mixed with onions, tomatoes, and cilantro.
+A picture of pug, a small dog with a wrinkled face, short muzzle, and a curled tail. Known for their playful and affectionate nature.
+A picture of Eskimo_dog, a medium-sized dog with a thick, double coat, often white or gray. Known for their strength and endurance in cold climates.
+A picture of Leonberg, a large, powerful dog with a thick double coat, often golden or red. Known for their gentle and friendly nature.
+A picture of guacamole, a Mexican dip made from mashed avocados, lime juice, onions, tomatoes, and cilantro. Often served with tortilla chips.
+A picture of schipperke, a small, sturdy dog with a thick black coat and a fox-like face. Known for their lively and curious nature.
+A picture of platypus, a unique, semi-aquatic mammal with a duck-like bill, webbed feet, and a beaver-like tail. Known for laying eggs.
+A picture of Shetland_sheepdog, a small to medium-sized dog with a thick coat, often sable and white, and a fox-like face. Known for their agility and intelligence.
+A picture of komondor, a large dog with a distinctive corded coat, often white. Known for their protective nature and used historically as guard dogs.
+A picture of Eagle, a large bird of prey with a powerful build, hooked beak, and keen eyesight. Often seen soaring high in the sky.
+A picture of Irish_setter, a large dog with a long, silky red coat and a friendly, outgoing nature. Known for their hunting abilities and energy.
+A picture of emu, a large, flightless bird with long legs and a shaggy, brownish-gray plumage. Often seen running swiftly across open landscapes.
+A picture of Rhodesian_ridgeback, a large, muscular dog with a distinctive ridge of hair along its back that grows in the opposite direction to the rest of the coat. Ridgebacks are typically tan or reddish in color.
+A picture of omelette, a dish made from beaten eggs, cooked in a frying pan and often folded around fillings such as cheese, vegetables, and meats.
+A picture of anchor, a heavy object, often made of metal, used to moor a vessel to the seabed. Anchors have flukes that dig into the sea floor.
+A picture of whippet, a slender, elegant dog with a short coat and a gentle, friendly demeanor. Known for their speed and agility.
+A picture of soft_coated_wheaten_terrier, a medium-sized dog with a soft, wavy coat, often wheaten in color. Known for their friendly and playful nature.
+A picture of grand_piano, a large, wing-shaped piano with a horizontal soundboard and strings. Often used in classical and concert performances.
+A picture of Irish_water_spaniel, a medium to large-sized dog with a curly, liver-colored coat and a distinctive topknot. Known for their water-retrieving abilities.
+A picture of Brittany_spaniel, a medium-sized dog with a dense coat, often orange and white or liver and white. Known for their hunting abilities and friendly nature.
+A picture of Dolphin, a sleek and playful marine mammal with a curved dorsal fin, elongated snout, and smooth, rubbery skin. Dolphins are often seen leaping out of the water and swimming in groups.
+A picture of wheelchair, a chair mounted on wheels, used for mobility by individuals who cannot walk. Wheelchairs come in various designs and can be manually operated or powered.
+A picture of Saint_Bernard, a large, powerful dog with a thick double coat, often brown and white. Known for their rescue abilities and gentle nature.
+A picture of Pembroke, a small to medium-sized dog with a short coat, often red or fawn, and a short tail. Known for their herding abilities and friendly nature.
+A picture of Weimaraner, a large dog with a sleek, silver-gray coat and a noble, alert expression. Known for their hunting abilities and friendly nature.
+A picture of chow, a medium to large-sized dog with a thick double coat, often red, black, or blue. Known for their distinctive blue-black tongue and independent nature.
+A picture of cellphone, a handheld electronic device with a screen and buttons or touchscreen, used for communication, browsing the internet, and various applications. Cellphones are typically rectangular and come in various colors and designs.
+A picture of Chinese_Crested_Dog, a small dog with little to no hair, except for tufts on the head, feet, and tail. Known for their lively and affectionate nature.
+A picture of red_velvet_cake, a moist, red-colored cake with a slight chocolate flavor, often topped with cream cheese frosting. Often served at celebrations.
+A picture of chair, a piece of furniture with a seat, backrest, and often armrests. Chairs come in various styles and materials.
+A picture of baklava, a rich, sweet pastry made of layers of filo dough filled with chopped nuts and sweetened with honey or syrup.
+A picture of Dandie_Dinmont, a small, sturdy dog with a long body, short legs, and a distinctive topknot of hair on its head. Known for their bold and affectionate nature.
+A picture of collie, a medium to large-sized dog with a long, dense coat, often sable and white. Known for their intelligence and herding abilities.
+A picture of Pigeon, a stout bird with a small head, short legs, and a cooing call. Often seen in urban areas and known for their homing abilities.
+A picture of silky_terrier, a small dog with a long, silky coat, often blue and tan. Known for their lively and friendly nature.
+A picture of electric_guitar, a stringed musical instrument with a solid body and electronic pickups. Often used in rock, pop, and blues music.
+A picture of scissors, a handheld tool with two blades pivoted together, used for cutting paper, fabric, and other materials.
+A picture of bibimbap, a Korean dish consisting of rice topped with various vegetables, meat, and a fried egg. Often served with chili paste.
+A picture of panna_cotta, an Italian dessert made with sweetened cream thickened with gelatin, often served with fruit or caramel sauce.
+A picture of edamame, young, green soybeans, often served boiled and salted. A popular appetizer in Japanese cuisine.
+A picture of chocolate_cake, a rich, moist cake made with cocoa or chocolate, often frosted with chocolate icing.
+A picture of donuts, fried dough pastries, often ring-shaped and coated with sugar or glazed. Donuts come in various flavors and fillings.
+A picture of Sealyham_terrier, a small, sturdy dog with a wiry coat, often white. Known for their hunting abilities and friendly nature.
+A picture of pulled_pork_sandwich, a sandwich filled with shredded, slow-cooked pork, often topped with barbecue sauce and coleslaw.
+A picture of french_toast, slices of bread soaked in an egg mixture and fried until golden brown. Often served with syrup, fruit, and powdered sugar.
+A picture of Italian_greyhound, a small, slender dog with a short coat and a graceful, elegant appearance. Known for their speed and affectionate nature.
+A picture of Shark, a large marine predator with a streamlined body, sharp teeth, and a dorsal fin. Sharks are often seen swimming swiftly in the ocean.
+A picture of Deer, a hoofed mammal with antlers, slender legs, and a graceful build. Deer are often seen in forests and grasslands.
+A picture of groenendael, a large dog with a thick, black coat and a strong, agile build. Known for their herding and protection abilities.
+A picture of dingo, a wild dog native to Australia with a lean build, erect ears, and a short coat that is usually tan or reddish in color. Dingoes are known for their hunting skills and adaptability.
+A picture of menorah, a multi-branched candelabrum used in Jewish rituals, often depicted with seven or nine branches.
+A picture of apple_pie, a dessert made with a pastry crust filled with spiced apple slices. Often served with ice cream or whipped cream.
+A picture of binocular, a handheld optical device with two eyepieces, used for viewing distant objects. Binoculars come in various magnifications.
+A picture of Koala, a small, tree-dwelling marsupial with a round face, large nose, and thick, gray fur. Often seen clinging to eucalyptus trees.
+A picture of pizza, an Italian dish consisting of a round, flatbread topped with tomato sauce, cheese, and various toppings. Often baked until the crust is crispy.
+A picture of soccer_ball, a round ball used in the sport of soccer, typically made of leather or synthetic material and marked with black and white patches.
+A picture of carrot_cake, a moist cake made with grated carrots, often spiced with cinnamon and nutmeg. Often topped with cream cheese frosting.
+A picture of Shiba_Dog, a small to medium-sized dog with a dense coat, erect ears, and a curled tail. Known for their spirited and independent nature.
+A picture of Llama, a domesticated South American mammal with a long neck, slender legs, and thick fur. Often used as a pack animal.
+A picture of Great_Dane, a very large dog with a sleek coat and a gentle, friendly nature. Often seen in various colors, including fawn, black, and brindle.
+A picture of Duck, a waterfowl with a broad, flat bill, webbed feet, and a waddling gait. Ducks are often seen swimming or foraging near water.
+A picture of Norwich_terrier, a small, sturdy dog with a wiry coat and a lively, affectionate personality. Often seen with a scruffy appearance.
+A picture of french_onion_soup, a soup made with caramelized onions, beef broth, and topped with melted cheese and croutons. Often served hot.
+A picture of camera, a device used to capture photographs or videos, typically with a lens, shutter, and sensor or film.
+A picture of miniature_poodle, a small dog with a curly coat, often groomed in a distinctive clipped style. Known for their intelligence and lively personality.
+A picture of laptop, a portable computer with a screen, keyboard, and various input devices. Laptops are often used for work, study, and entertainment.
+A picture of beagle, a small to medium-sized dog with a short coat and a keen sense of smell. Known for their friendly and curious nature.
+A picture of standard_schnauzer, a medium-sized dog with a dense, wiry coat and a distinctive beard. Known for their intelligence and alert nature.
+A picture of Old_English_sheepdog, a large dog with a long, shaggy coat, often gray and white. Known for their gentle and friendly nature.
+A picture of barrel, a cylindrical container made of wooden staves and metal hoops, used for storing liquids such as wine and beer.
+A picture of cup_cakes, small, individual cakes baked in a cup-shaped mold, often topped with frosting and decorations.
+A picture of pyramid, a large, triangular structure with a square base, often built as a tomb in ancient Egypt.
+A picture of seaweed_salad, a Japanese dish made with various types of seaweed, often seasoned with vinegar, soy sauce, and sesame oil.
+A picture of schooner, a sailing vessel with two or more masts, often used for cargo and passenger transport.
+A picture of Border_terrier, a small, sturdy dog with a wiry coat and a lively, affectionate personality. Often seen with a scruffy appearance.
+A picture of lobster_bisque, a creamy soup made with lobster meat, vegetables, and cream. Often garnished with lobster pieces and herbs.
+A picture of Hippopotamus, a large, heavyset mammal with a barrel-shaped body, short legs, and a large head with a wide mouth. Hippos are often seen in rivers and lakes, partially submerged in water.
+A picture of Labrador_retriever, a medium to large-sized dog with a dense, water-resistant coat, often yellow, black, or chocolate. Known for their friendly and outgoing nature.
+A picture of Owl, a nocturnal bird of prey with large, forward-facing eyes, a flat face, and a distinctive hooting call. Owls are often seen perched in trees or flying silently at night.
+A picture of dhole, a wild dog native to Asia with a reddish coat, bushy tail, and a slender build. Known for their social behavior and hunting in packs.
+A picture of English_foxhound, a large, muscular dog with a short coat, often tricolor (black, white, and tan). Known for their hunting abilities and friendly nature.
+A picture of Panda, a large bear-like mammal with distinctive black and white fur, native to China. Pandas are known for their diet of bamboo and gentle demeanor.
+A picture of Wolf, a large, wild canine with a thick coat, often gray, white, or black. Wolves are known for their social behavior and hunting in packs.
+A picture of oysters, edible marine mollusks with a rough, irregular shell. Oysters are often served raw on the half shell or cooked in various dishes.
+A picture of garlic_bread, slices of bread topped with garlic, butter, and sometimes cheese, then baked until golden. Often served as a side dish.
+A picture of fried_rice, a dish made with cooked rice, stir-fried with vegetables, meat, and soy sauce. Often garnished with green onions or sesame seeds.
+A picture of Faces_easy, a collection of human faces with distinct features such as eyes, nose, mouth, and expressions. Faces can convey a wide range of emotions.
+A picture of stop_sign, a red, octagonal traffic sign with the word "STOP" in white letters. Used to indicate that vehicles must come to a complete stop.
+A picture of Japanese_Spitzes, small to medium-sized dogs with a thick, white coat and a fox-like face. Known for their friendly and alert nature.
+A picture of Camel, a large, humped mammal adapted to desert life, known for its ability to go without water for long periods. Camels are often used for transport in arid regions.
+A picture of West_Highland_white_terrier, a small, sturdy dog with a dense, white coat and a lively, friendly personality. Often seen with a cheerful expression.
+A picture of spaghetti_bolognese, an Italian pasta dish made with spaghetti and a rich meat sauce, often topped with Parmesan cheese.
+A picture of club_sandwich, a sandwich made with layers of bread, turkey or chicken, bacon, lettuce, tomato, and mayonnaise. Often served cut into quarters.
+A picture of water_lilly, a beautiful aquatic plant with broad, floating leaves and vibrant, colorful flowers that bloom above the water's surface. Water lilies are commonly found in ponds and still waters.
+A picture of Elk, a large, deer-like mammal with antlers and a thick coat. Elk are often seen in forests and grasslands.
+A picture of Giraffe, a large, long-necked mammal with distinctive spots and long legs. Giraffes are often seen browsing leaves from tall trees.
+A picture of windsor_chair, a wooden chair with a curved back and spindle supports. Often used in traditional and colonial-style decor.
+A picture of onion_rings, slices of onion coated in batter and deep-fried until crispy and golden brown. Often served as a side dish or appetizer.
+A picture of wire_haired_fox_terrier, a small, sturdy dog with a wiry coat and a lively, playful nature. Often seen with a distinctive beard and eyebrows.
+A picture of trilobite, an extinct marine arthropod with a segmented body and a hard exoskeleton. Often found as fossils in sedimentary rock.
+A picture of strawberry, a small, red fruit with a sweet taste and a surface covered in tiny seeds. Often eaten fresh or used in desserts.
+A picture of Fish, aquatic vertebrates with gills, fins, and a streamlined body. Fish come in various shapes, sizes, and colors, and are often seen swimming in water.
+A picture of frozen_yogurt, a cold, creamy dessert made from yogurt and often flavored with fruit or other ingredients. Served in a cup or cone.
+A picture of hot_dog, a cooked sausage, usually made of beef or pork, served in a sliced bun. Often topped with mustard, ketchup, and other condiments.
+A picture of greek_salad, a salad made with tomatoes, cucumbers, olives, feta cheese, and onions, dressed with olive oil and oregano.
+A picture of eggs_benedict, a breakfast dish consisting of a poached egg, Canadian bacon, and hollandaise sauce on an English muffin. Often served hot.
+A picture of fish_and_chips, a traditional British dish consisting of battered and fried fish served with deep-fried potato chips. Often garnished with lemon and tartar sauce.
+A picture of Great_Pyrenees, a large, powerful dog with a thick, white coat and a gentle, protective nature. Known for guarding livestock.
+A picture of Cane_Carso, a large, muscular dog with a short coat, often black or brindle. Known for their protective and loyal nature.

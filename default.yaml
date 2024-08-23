@@ -1,0 +1,17 @@
+root_path: ""
+# ------ Basic Config ------
+dataset: ''
+shots: 4
+clip_backbone: 'ViT-B/32'
+lr: 1.0e-3
+augment_epoch: 3
+batch_size: 256
+val_batch_size: 256
+num_classes: 403
+alpha: 0.5 
+lambda_merge: 0.35
+train_epoch: 50
+
+rand_seed: 524 
+torch_rand_seed: 19990524
+#num_step: 8
