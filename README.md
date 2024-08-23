@@ -57,6 +57,7 @@ bash train.sh
 ```
 qq 917846323
 ## 引用
+```
 @inproceedings{zanella2024low,
   title={Low-Rank Few-Shot Adaptation of Vision-Language Models},
   author={Zanella, Maxime and Ben Ayed, Ismail},
@@ -80,3 +81,4 @@ qq 917846323
   pages={12924--12933},
   year={2024}
 }
+```
