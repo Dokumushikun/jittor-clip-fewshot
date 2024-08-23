@@ -1735,11 +1735,12 @@ def evaluate_base(args,  moco_adapter, moco_model, channel_lp, prompt_learner, T
             cosine_similarity5 = (cosine_similarity2 + cosine_similarity3)/2 + 0.5 *logits
             cosine_similarity6 = (cosine_similarity2 + cosine_similarity3)/2 + 0.5 *out_moco
 
-            top5_prob, top5_pred6 = cosine_similarity6.topk(5, dim=-1)
+            top5_prob, top5_pred6 = cosine_similarity2.topk(5, dim=-1)
             for idx in range(1):
                 top5_labels6 = top5_pred6[idx].tolist()  
                 top5_str6 = ' '.join(map(str, top5_labels6)) 
                 results6.append(f"{impath} {top5_str6}")
+            
 
         with open(f'final_results/top5_results6.txt', 'w') as f:
             for result in results6:
@@ -1956,10 +1957,9 @@ def main():
     test_loader1 = DataLoader(testset1, batch_size=1, num_workers=8, shuffle=False)
     testset2 = JtDataset(root_path, 'TestSetB_2', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
     test_loader2 = DataLoader(testset2, batch_size=1, num_workers=8, shuffle=False)
-    #valsetcar = JtDataset(root_path, 'test_out', num_shots=num_shots, transform=preprocess, transform_s=train_tranform2, mode='test')
-    #val_loadercar = DataLoader(valsetcar, batch_size=256, num_workers=8, shuffle=False)
+
     run_test(args, clip_model_zs, clip_model, logit_scale, dataset, val_loader1, val_loader2, test_loader1, test_loader2)
-    #run_test1(args, clip_model_zs, clip_model, logit_scale, dataset, val_loader1, val_loader2, test_loader1, test_loader2)
+
 
 
 if __name__ == '__main__':
