@@ -49,7 +49,8 @@
 
 运行以下命令进行测试：
 ```bash
-python ood.py #将base类输出到Dataset/TestSetB_1.txt, new类输出到Dataset/TestSetB_1.txt.
+python ood.py #将base类输出到Dataset/TestSetB_1.txt, new类输出到Dataset/TestSetB_2.txt.
+#检查一下两个txt尾部有无异常数据
 python test.py #分别对base和new预测top5标签，保存到final_results/result.txt
 ```
 ### 2. 训练
