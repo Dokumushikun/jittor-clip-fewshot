@@ -30,6 +30,7 @@
 
 ### 下载模型权重
 
+官方vit-b-32版本clip的“ViT-B-32.pkl”放在主目录。
 请下载模型权重（链接：https://pan.baidu.com/s/1vyJHgwidVQWuG-U869awfQ 密码：3a36），并按照以下要求放置：
 
 - `res1000epoch.pkl` 放置在主目录。
