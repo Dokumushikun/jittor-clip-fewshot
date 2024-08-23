@@ -64,6 +64,7 @@ qq 917846323
   pages={1593--1603},
   year={2024}
 }
+
 @inproceedings{zanella2024test,
   title={On the test-time zero-shot generalization of vision-language models: Do we really need prompt learning?},
   author={Zanella, Maxime and Ben Ayed, Ismail},
@@ -71,6 +72,7 @@ qq 917846323
   pages={23783--23793},
   year={2024}
 }
+
 @inproceedings{zhang2024dept,
   title={Dept: Decoupled prompt tuning},
   author={Zhang, Ji and Wu, Shihan and Gao, Lianli and Shen, Heng Tao and Song, Jingkuan},
