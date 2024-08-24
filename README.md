@@ -32,10 +32,9 @@
 
 官方vit-b-32版本clip的“ViT-B-32.pkl”放在主目录。
 请下载模型权重（链接：https://pan.baidu.com/s/1vyJHgwidVQWuG-U869awfQ 密码：3a36），并按照以下要求放置：
-
 - `res1000epoch.pkl` 放置在主目录。
 - 其他 `.pkl` 权重文件放置在 `test_pkl` 文件夹中。
-
+res50预训练权重下载地址（实测作用不大，和另一个分类头无法解耦）：https://github.com/facebookresearch/moco-v3
 ### 数据集放置
 
 - 测试集 `TestSetB` 放在 `Dataset` 文件夹下。
@@ -45,6 +44,8 @@
 ```bash
 依赖安装 pip install -r requirements.txt
 ```
+### 参数量
+prompt（4*768），res50参数量约25.6M，lora-clip约151.47M，zeroshot-clip约149M，两个分类头共5.4M，合计约332M。
 ### 1. 测试
 
 运行以下命令进行测试：
